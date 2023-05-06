@@ -6,29 +6,29 @@ p {
 /* Formatação de imagens com legenda */
 
 figure.foto-legenda {
-    position: relative;
-    border: 8px solid white;
-    box-shadow: 1px 1px 4px black;
+  position: relative;
+  border: 8px solid white;
+  box-shadow: 1px 1px 4px black;
 }
 
 figure.foto-legenda img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 figure.foto-legenda figcaption {
-    position: absolute;
-    top: 0px;
-    background-color: rgba(0, 0, 0, .4);
-    color: white;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+  position: absolute;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 
 figure.foto-legenda:hover figcaption {
-    opacity: 1;
+  opacity: 1;
 }
